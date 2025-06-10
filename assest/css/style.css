@@ -89,7 +89,7 @@ button:hover {
   max-width: 1000px;
   min-height: 800px;
   margin: 0 auto;
-  display: flex;
+  text-align: center;
 }
 
 .box-height {
@@ -136,7 +136,7 @@ button:hover {
 
 /******Border settings*******/
 .border {
-  border: 2px dotted;
+  border: none;
 }
 
 .bd-black {
@@ -203,7 +203,7 @@ button:hover {
 }
 
 .bg-lightblue {
-  background-color: #1E90FF;
+  background-color: #8EA1E2;
 }
 
 .bg-lightpink {
