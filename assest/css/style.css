@@ -269,10 +269,18 @@ button:hover {
 }
 
 .fa-brands {
-  margin: 15px 10px;
+  margin: 25px 10px;
   color: #fff;
 }
 
 .flex-d {
   flex-direction: column;
+}
+
+.top-footer ul {
+  margin: 10px;
+}
+
+.top-footer ul li {
+  margin: 8px;
 }
