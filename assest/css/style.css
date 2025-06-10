@@ -42,18 +42,6 @@ button:hover {
   cursor: pointer;
 }
 
-.col-40 span {
-  font-size: 1.2em;
-}
-
-
-.sm-container>.pyb-20>button {
-  margin: 30px 10px;
-}
-
-.bottom-footer .container {
-  min-height: 50px;
-}
 
 /*********Tools**********/
 .container {
@@ -62,18 +50,9 @@ button:hover {
 
 }
 
-.d-flex {
-  display: flex;
-}
-
-.highlithed {
-  color: #7088D3;
-}
-
 .box {
   align-items: center;
   justify-content: space-between;
-
 }
 
 .sm-container {
@@ -81,7 +60,6 @@ button:hover {
   min-height: 400px;
   margin: 0px auto;
   text-align: center;
-
 }
 
 .big-container {
@@ -91,22 +69,21 @@ button:hover {
   text-align: center;
 }
 
-
-.gap-15 {
-  column-gap: 15%;
+.d-flex {
+  display: flex;
 }
 
-.margin {
-  margin: 25px auto;
+.flex-d {
+  flex-direction: column;
 }
 
-
-.f-sizem {
-  font-size: medium;
+.btm-button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-
-/*****Padding*******/
+/*****Padding Margin Gap*******/
 .pxy-5 {
   padding: 5px 5px;
 }
@@ -127,6 +104,13 @@ button:hover {
   padding: 30px 0px;
 }
 
+.margin {
+  margin: 25px auto;
+}
+
+.gap-15 {
+  column-gap: 15%;
+}
 
 /******Border settings*******/
 .border {
@@ -172,8 +156,15 @@ button:hover {
   color: #fff;
 }
 
-/*****Background colors*****/
+.highlithed {
+  color: #7088D3;
+}
 
+.f-sizem {
+  font-size: medium;
+}
+
+/*****Jumbo*****/
 .bg-jumbo {
   background-image: url(../img/jumbo.png);
   background-size: 100%;
@@ -186,6 +177,8 @@ button:hover {
   font-size: 1.3em;
   padding-bottom: 150px;
 }
+
+/*****Backgrounds*****/
 
 .bg-lightblue {
   background-color: #8EA1E2;
@@ -214,6 +207,16 @@ button:hover {
   padding: 30px 20px;
 }
 
+/*****Footer******/
+.top-footer ul {
+  margin: 10px;
+}
+
+.top-footer ul li {
+  margin: 8px;
+}
+
+/*****Generals******/
 .flag {
   width: 25px;
   margin-right: 5px;
@@ -224,20 +227,14 @@ button:hover {
   color: #fff;
 }
 
-.flex-d {
-  flex-direction: column;
+.col-40 span {
+  font-size: 1.2em;
 }
 
-.top-footer ul {
-  margin: 10px;
+.sm-container>.pyb-20>button {
+  margin: 30px 10px;
 }
 
-.top-footer ul li {
-  margin: 8px;
-}
-
-.btm-button {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
+.bottom-footer .container {
+  min-height: 50px;
 }
