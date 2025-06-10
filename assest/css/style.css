@@ -40,6 +40,11 @@ h2 {
   margin-bottom: 20px;
 }
 
+
+button:hover {
+  cursor: pointer;
+}
+
 .col-40 span {
   font-size: 1.2em;
 }
@@ -49,9 +54,6 @@ h2 {
   margin: 30px 10px;
 }
 
-button:hover {
-  cursor: pointer;
-}
 
 .top-footer {}
 
@@ -70,6 +72,10 @@ button:hover {
 
 .d-flex {
   display: flex;
+}
+
+.highlithed {
+  color: #7088D3;
 }
 
 .box {
@@ -255,4 +261,18 @@ button:hover {
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 30px 20px;
+}
+
+.flag {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.fa-brands {
+  margin: 15px 10px;
+  color: #fff;
+}
+
+.flex-d {
+  flex-direction: column;
 }
