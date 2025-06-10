@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: #3160E0;
+  background-color: #255EE9;
   padding: 10px 0;
   display: flex;
 }
@@ -28,6 +28,19 @@ ul {
 li {
   font-size: medium;
   color: #fff;
+}
+
+h1 {
+  margin: 50px;
+  font-size: 3em;
+}
+
+.sm-container>.pyb-20>button {
+  margin: 30px 10px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .top-footer {}
@@ -55,8 +68,9 @@ li {
   min-width: 800px;
   max-width: 800px;
   min-height: 400px;
-  margin: 0 auto;
-  display: flex;
+  margin: 0px auto;
+  text-align: center;
+
 }
 
 .big-container {
@@ -141,7 +155,7 @@ li {
   width: 40%;
 }
 
-/******Text alignment*******/
+/******Text tools*******/
 .t-center {
   text-align: center;
 }
@@ -150,10 +164,23 @@ li {
   text-align: end;
 }
 
+.t-white {
+  color: #fff;
+}
+
 /*****Background colors*****/
 
-.bg-blue {
-  background-color: #00018B;
+.bg-jumbo {
+  background-image: url(../img/jumbo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+.jumbo-text {
+  font-size: 1.3em;
+  padding-bottom: 150px;
 }
 
 .bg-pink {
